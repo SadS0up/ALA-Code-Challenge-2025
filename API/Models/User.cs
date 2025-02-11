@@ -2,7 +2,9 @@
 {
     public class User
     {
-        public string user { get; set; } = "";
+        public int id { get; set; } = -1;
+        public string email { get; set; } = "";
+        public string name { get; set; } = "";
         public string password { get; set; } = "";
     }
     public class UserLoginResponse
@@ -21,6 +23,7 @@
         public string email { get; set; } = "";
         public string name { get; set; } = "";
         public string password { get; set; } = "";
+        public string role { get; set; } = "";
     }
     public class UserUpdate
     {
@@ -28,5 +31,6 @@
         public string email { get; set; } = "";
         public string name { get; set; } = "";
         public string password { get; set; } = "";
+        public string role { get; set; } = "";
     }
 }
