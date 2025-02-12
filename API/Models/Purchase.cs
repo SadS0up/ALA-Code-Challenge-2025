@@ -4,6 +4,7 @@ namespace API.Models
     {
         public int id { get; set; } = -1;
         public int userID { get; set; } = -1;
+        public string userName { get; set; } = "";
         public DateTime orderDate { get; set; } = DateTime.Now;
         public decimal total { get; set; } = -1;
     }
